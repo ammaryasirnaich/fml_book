@@ -3,7 +3,7 @@
 
 title: PRINCIPLES OF MACHINE LEARNING BOOK
 author: Jesus Requena Carrion
-logo: ./images/qmul_logo.png
+logo: images/qmul_logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
