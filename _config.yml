@@ -1,9 +1,13 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
+remote_theme: _static/
+
 title: PRINCIPLES OF MACHINE LEARNING BOOK
 author: Jesus Requena Carrion
-logo: /images/qmul_logo.png
+logo: _static/qmul_logo.png
+
+url: "https://ammaryasirnaich.github.io/fml_book/"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -15,7 +19,7 @@ execute:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: principles_machine_learning.tex
+    targetname: fundamentals_machine_learning.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -23,8 +27,8 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/ammaryasirnaich/MachinelearningBook       # Online location of your book
-  path_to_book: Principles_of_machine_learning  # Optional path to your book, relative to the repository root
+  url: https://github.com/ammaryasirnaich/fml_book/tree/master/docs       # Online location of your book
+  path_to_book: notebooks  # Optional path to your book, relative to the repository root
 #  branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
