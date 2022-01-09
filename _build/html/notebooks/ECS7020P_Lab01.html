@@ -161,11 +161,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/ammaryasirnaich/MachinelearningBook"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/ammaryasirnaich/fml_book"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/ammaryasirnaich/MachinelearningBook/issues/new?title=Issue%20on%20page%20%2Fnotebooks/ECS7020P_Lab01.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/ammaryasirnaich/fml_book/issues/new?title=Issue%20on%20page%20%2Fnotebooks/ECS7020P_Lab01.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -188,7 +188,7 @@
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/ammaryasirnaich/MachinelearningBook/blob/master/Principles_of_machine_learning/notebooks/ECS7020P_Lab01.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/ammaryasirnaich/fml_book/blob/master/notebooks/ECS7020P_Lab01.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
@@ -366,16 +366,6 @@ mystring   str     Welcome to ECS7020P!
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">5</span><span class="o">-</span><span class="mi">7</span><span class="n">dd3504c366f</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
-</pre></div>
-</div>
-</div>
 </div>
 <p>We can use Pandas to load the CSV file that we have just uploaded.</p>
 <div class="cell docutils container">
@@ -392,6 +382,208 @@ mystring   str     Welcome to ECS7020P!
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Animal</th>
+      <th>BM (g)</th>
+      <th>HR (bpm)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Wild mouse</td>
+      <td>22</td>
+      <td>480</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>White rat</td>
+      <td>237</td>
+      <td>347</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>White mouse</td>
+      <td>29</td>
+      <td>376</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Talapoin</td>
+      <td>100</td>
+      <td>233</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Syrian bear</td>
+      <td>250000</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Spermophilus</td>
+      <td>189</td>
+      <td>290</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Meerkat</td>
+      <td>5000</td>
+      <td>190</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Siberian tiger</td>
+      <td>220000</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Sheep</td>
+      <td>51000</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Roe deer</td>
+      <td>20700</td>
+      <td>104</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Rat</td>
+      <td>260</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Rabbit</td>
+      <td>2500</td>
+      <td>273</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Polar bear</td>
+      <td>375000</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Peromyscus</td>
+      <td>22</td>
+      <td>420</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Orangutan</td>
+      <td>100000</td>
+      <td>110</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Mouse</td>
+      <td>27</td>
+      <td>723</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Japanese monkey</td>
+      <td>6600</td>
+      <td>147</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Humback whale</td>
+      <td>30000000</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Human</td>
+      <td>66000</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Horse</td>
+      <td>494000</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Hamster</td>
+      <td>90</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Guinea pig</td>
+      <td>593</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Elephant Seal</td>
+      <td>91600</td>
+      <td>136</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Elephant</td>
+      <td>3437000</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Dog</td>
+      <td>25000</td>
+      <td>133</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Cynomolgus monkey</td>
+      <td>5000</td>
+      <td>179</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Chimpanzee</td>
+      <td>50600</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Cat</td>
+      <td>4000</td>
+      <td>97</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Camel</td>
+      <td>545000</td>
+      <td>49</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
 </div>
 <p>The DataFrame <code class="docutils literal notranslate"><span class="pre">df</span></code> records the average body mass (<code class="docutils literal notranslate"><span class="pre">BM</span></code>) and heart rate (<code class="docutils literal notranslate"><span class="pre">HR</span></code>) of 28 different animal species, from the little wild mouse to the massive humpback whale. Let’s plot this dataset.</p>
 <div class="cell docutils container">
@@ -399,6 +591,12 @@ mystring   str     Welcome to ECS7020P!
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;BM (g)&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;HR (bpm)&quot;</span><span class="p">,</span> <span class="n">logx</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;AxesSubplot:xlabel=&#39;BM (g)&#39;, ylabel=&#39;HR (bpm)&#39;&gt;
+</pre></div>
+</div>
+<img alt="../_images/ECS7020P_Lab01_18_1.png" src="../_images/ECS7020P_Lab01_18_1.png" />
 </div>
 </div>
 <p>This concludes this short introductory lab. Feel free to experiment with this notebook, add new cells or edit existing ones, it’s all yours! If you want to use the original Jupyter notebook, you can always download it from QM+.</p>

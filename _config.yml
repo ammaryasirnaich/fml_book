@@ -15,7 +15,7 @@ execute:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: principles_machine_learning.tex
+    targetname: fundamentals_machine_learning.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -23,8 +23,8 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/ammaryasirnaich/MachinelearningBook       # Online location of your book
-  path_to_book: Principles_of_machine_learning  # Optional path to your book, relative to the repository root
+  url: https://github.com/ammaryasirnaich/fml_book       # Online location of your book
+#  path_to_book:   # Optional path to your book, relative to the repository root
 #  branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
