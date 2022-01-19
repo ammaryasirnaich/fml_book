@@ -43,4 +43,8 @@ jupyter-book build --all fml_book_content/
 After running the above command the `_build` folder will be created containing `html` and `jupyter_execute` folders. Inside the `html` folder, their lies 
 the web-based book for the fml which can be launched by double-clicking the `index.html` file.
 
+>Note: \
+In our case we would only modify the `_toc.yml` file in which we will included the chapters of the books by including the references-path of the  jupyter notebook or markdown files.
+The order of the reference-path will suggest the chapter number automatically.
+
 
