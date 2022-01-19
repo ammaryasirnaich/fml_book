@@ -7,14 +7,22 @@ You can install jupyterbook with pip or conda:
 > conda install -c conda-forge jupyter-book
 
 # Quickly generate a sample book
-You can creat a sample book which works as a template to re-structure the contents and the look and feel of the book
+You can creat a sample book which works as a template to re-structure the contents including the look and feel of the book.
 To generate this template book structure you just have to run the below command.
 ```
 jupyter-book create mynewbook
 ```
 
-# Or using the already created Structure
-For this book we have already creat a structure which is as below:
+# Structure of a Jupyter Book
+After running the  `jupyter-book create` command `_config.yml` and `_toc.yml` files will be created.
+The `_config.yml` contains the allowed configuration setting for the look and feel settings of the book while the `_toc.yml` contain the table of content settings for the book.
+
+
+
+
+
+### Or using the already created Structure
+For the fml book we have already created a structure which is as below:
 
 > fml_book_content \ \
 >  ..\ dataset \
@@ -25,6 +33,14 @@ For this book we have already creat a structure which is as below:
 ```
 Note: you can use ' git clone https://github.com/ammaryasirnaich/fml_book.git ' to clone this structure localy.
 ```
+In this structure you can put your datasets,images and jupyter notebooks inside the corresponding folders so that while generating the book these resources can be included when the book in compiled. 
+After you can also re-configured the `_config.yml and _toc.yml` files you can build the book running the `juyter-book build` command.
+In our case we will run the command to build all the content of the jupyter book using the `-all` parameter.
+```
+jupyter-book build --all fml_book_content/
+```
 
+After running the above command the `_build` folder will be created containing `html` and `jupyter_execute` folders. Inside the `html` folder, their lies 
+the web-based book for the fml which can be launched by double-clicking the `index.html` file.
 
 
